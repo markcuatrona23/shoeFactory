@@ -1,0 +1,37 @@
+body {
+	padding: 10;
+    margin: 10;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	/* background-color: olive; */
+}
+
+header {
+    margin: 10px;
+	display: grid;
+}
+
+.center {
+	justify-self: center;
+}
+
+.end {
+	justify-self: flex-end;
+	padding-right: 100px;
+}
+
+#home {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 15% 50% 25%;
+    justify-content: space-evenly;
+}
+
+.border {
+	border: 1px solid green;
+    padding: 10px;
+	margin: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
